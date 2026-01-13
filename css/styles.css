@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+
+
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+
+/* 2. VARIABLES: Para mantener el código ordenado */
+:root {
+  --fuente-principal: 'Roboto', sans-serif;
+  --fuente-encabezado: 'Orbitron', sans-serif;
+}
+
+
+body {
+  font-family: var(--fuente-principal);
+  font-weight: 400; 
+  line-height: 1.6; 
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--fuente-encabezado);
+  font-weight: 700; 
+  text-transform: uppercase; 
+}
+
+
+.texto-futurista {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.texto-normal {
+  font-family: 'Roboto', sans-serif;
+}
+
+.label-neon {
+    border: 1px solid #0dcaf0; 
+    padding: 5px 15px;         
+    border-radius: 5px;        
+    color: #0dcaf0;            
+    box-shadow: 0 0 5px #0dcaf0; 
+    background-color: rgba(0,0,0,0.5); 
+}
+
+.btn-neon-green {
+    
+    box-shadow: 0 0 10px #198754, 0 0 20px #198754;
+    border: none; 
+}
+
+.btn-neon-green:hover {
+     box-shadow: 0 0 15px #198754, 0 0 30px #198754;
+    }
+
+    /* Aseguramos que el negro sea profundo como tu fondo */
+.bg-black {
+    background-color: #000000 !important;
+}
+
+/* Fuente Orbitron para la marca (como tu título H2) */
+.font-orbitron {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
+}
+
+/* Estilo de los enlaces del centro */
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif; /* Texto legible */
+    color: #ffffff !important;         /* Blanco */
+    text-transform: uppercase;         /* Mayúsculas estilo gamer */
+    font-size: 0.9rem;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Efecto Hover: Se pone Cian y brilla */
+.navbar-nav .nav-link:hover, 
+.hover-effect:hover {
+    color: #0dcaf0 !important; /* Tu color Cian */
+    text-shadow: 0 0 8px #0dcaf0; /* Efecto Neón */
+    cursor: pointer;
+}
+
+/* Separadores verticales (|) */
+.nav-separator {
+    color: #6c757d; /* Gris para que no distraiga */
+    margin: 0 10px; /* Espacio a los lados */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Ajuste para móvil: Ocultar separadores si la pantalla es chica */
+@media (max-width: 991px) {
+    .nav-separator {
+        display: none; /* No mostrar las barras en vertical */
+    }
+    .navbar-nav {
+        text-align: center; /* Centrar todo en móvil */
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

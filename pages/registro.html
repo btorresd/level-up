@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de Usuario</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3 border-bottom border-secondary">
+            <div class="container-fluid px-4">
+              
+              <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="bi bi-controller fs-3 text-info me-2"></i>
+                <span class="font-orbitron fw-bold">LEVEL UP</span>
+              </a>
+          
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuGamer">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="menuGamer">
+                
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-separator d-none d-lg-block">|</li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-separator d-none d-lg-block">|</li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-separator d-none d-lg-block">|</li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blogs.html">Blogs</a>
+                  </li>
+                  <li class="nav-separator d-none d-lg-block">|</li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+          
+                <div class="d-flex align-items-center text-white cursor-pointer hover-effect">
+                  <i class="bi bi-cart3 fs-4 me-2"></i>
+                  <span>Carrito (0)</span>
+                </div>
+                
+              </div>
+            </div>
+          </nav>
+    </header>
+
+  <div class="container mt-5">
+    <img src="../assets/icono.png" class="mb-3 d-block mx-auto rounded-circle border border-3 border-success p-1" alt="Logo">
+    <h2 class="mb-4 text-center">Registro LEVEL UP</h2>
+    <form id="formRegistro">
+      <div class="mb-3">
+        <label for="nombre" class="form-label label-neon">Nombre completo</label>
+        <input type="text" id="nombre" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="email" class="form-label label-neon">Correo electrónico</label>
+        <input type="email" id="email" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="edad" class="form-label label-neon">Telefono</label>
+        <input type="number" id="telefono" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="clave1" class="form-label label-neon">Contraseña</label>
+        <input type="password" id="clave1" class="form-control">
+      </div>
+
+      <div class="mb-3">
+        <label for="clave2" class="form-label label-neon">Confirmar Contraseña</label>
+        <input type="password" id="clave2" class="form-control">
+      </div>
+<div id="mensajes"></div>
+      <button type="button" class="btn-neon-green" onclick="validarFormulario()">Registrar</button>
+    </form>
+    
+  </div>
+
+  <script src="../js/registro.js"></script>
+</body>
+</html>
