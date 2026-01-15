@@ -102,3 +102,23 @@ h1, h2, h3, h4, h5, h6 {
         margin-bottom: 15px;
     }
 }
+
+/* Esto pone los elementos en fila (uno al lado del otro) */
+.zona-usuario {
+    display: flex;
+    align-items: center; /* Los centra verticalmente */
+    gap: 15px; /* Espacio entre el texto, el botón y el carrito */
+}
+
+/* Esto es para que el texto "INGRESAR" se vea blanco y sin subrayado */
+.link-simple {
+    color: white;
+    text-decoration: none; /* Quita la línea de abajo del link */
+    font-family: 'Roboto', sans-serif; /* Tu fuente normal */
+}
+
+/* Pequeño ajuste para que tu clase .label-neon funcione bien como botón */
+a.label-neon {
+    text-decoration: none; /* Quita el subrayado del link */
+    font-family: 'Orbitron', sans-serif; /* Tu fuente gamer */
+}

@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LEVEL UP</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 <body>
     
+    <!-- Bienvenida -->
+  <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black py-3 border-bottom border-secondary">
+            <div class="container-fluid px-4">
+              
+              <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="bi bi-controller fs-3 text-info me-2"></i>
+                <span class="font-orbitron fw-bold">LEVEL UP</span>
+              </a>
+          
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuGamer">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="menuGamer">
+                
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 align-items-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-separator d-none d-lg-block">|</li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-separator d-none d-lg-block">|</li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-separator d-none d-lg-block">|</li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="blogs.html">Blogs</a>
+                  </li>
+                  <li class="nav-separator d-none d-lg-block">|</li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+          
+                
+                <div class="zona-usuario">
+    
+                  <a href="inicio-sesion.html" class="link-simple">INGRESAR</a>
+
+                <a href="registro.html" class="label-neon">REGISTRARSE</a>
+
+                <span class="carrito">Carrito (0)</span>
+
+                </div>
+                
+              </div>
+            </div>
+          </nav>
+    <h1 class="display-4">Bienvenido a LEVEL UP</h1>
+    <p class="lead">Llevamos tu experiencia de juego al siguiente nivel.</p>
+    <a href="productos.html" class="btn btn-success mt-3">Ver Productos</a>
+  </header>
+
+  <!-- Productos -->
+  <section class="container my-5 text-center">
+    <img src="../assets/icono.png" alt="Logo level up" class="img-fluid rounded">
+  </section>
+
+  <!-- Nosotros -->
+  <section class="py-5 text-center">
+    <h2>Sobre Nosotros</h2>
+    <p class="lead">
+      En Pastelería Delicias llevamos más de 10 años endulzando momentos especiales
+      con productos artesanales, elaborados con ingredientes de la mejor calidad y mucho amor.
+    </p>
+    <a href="nosotros.html" class="btn btn-success mt-3">Conócenos más</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4 text-center">
+    <p>© 2025 Pastelería Delicias. Todos los derechos reservados.</p>
+    <p>Contacto: info@pasteleriadelicias.cl | Tel: +56 9 1234 5678</p>
+  </footer>
 </body>
 </html>
