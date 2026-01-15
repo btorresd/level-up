@@ -46,19 +46,24 @@ h1, h2, h3, h4, h5, h6 {
     background-color: rgba(0,0,0,0.5); 
 }
 
+/* 1. Cómo se ve el botón normalmente */
 .btn-neon-green {
-    
-    box-shadow: 0 0 10px #198754, 0 0 20px #198754;
-    border: none; 
+    text-decoration: none;     /* ESTO quita el subrayado feo */
+    color: #00ff87;            /* Tu color verde */
+    border: 2px solid #00ff87; /* El borde del cuadro */
+    padding: 10px 20px;        /* Relleno para que no se vea apretado */
+    background: transparent;   /* Fondo transparente */
 }
 
+/* 2. Qué pasa cuando le pones el mouse encima */
 .btn-neon-green:hover {
-     box-shadow: 0 0 15px #198754, 0 0 30px #198754;
-    }
+    background-color: #00ff87; /* Se rellena de verde */
+    color: black;              /* La letra cambia a negro para leerse */
+}
 
     /* Aseguramos que el negro sea profundo como tu fondo */
 .bg-black {
-    background-color: #000000 !important;
+    background-color: #000000;
 }
 
 /* Fuente Orbitron para la marca (como tu título H2) */
