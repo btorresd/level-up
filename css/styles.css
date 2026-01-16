@@ -127,3 +127,21 @@ a.label-neon {
     text-decoration: none; /* Quita el subrayado del link */
     font-family: 'Orbitron', sans-serif; /* Tu fuente gamer */
 }
+
+/* Agregaremos esta clase a la columna del carrito en el HTML más adelante */
+.panel-carrito {
+    /* Fondo gris muy oscuro, casi negro */
+    background-color: #111111; 
+    
+    /* Borde delgado gris */
+    border: 1px solid #333; 
+    
+    /* Espacio interno para que el texto no toque los bordes */
+    padding: 20px; 
+    
+    /* Bordes redondeados */
+    border-radius: 10px; 
+    
+    /* Borde superior de color para decorar (como una carpeta) */
+    border-top: 3px solid #0dcaf0; 
+}

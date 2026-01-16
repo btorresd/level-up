@@ -38,10 +38,6 @@
               </li>
               <li class="nav-separator d-none d-lg-block">|</li>
               <li class="nav-item">
-                <a class="nav-link" href="blogs.html">Blogs</a>
-              </li>
-              <li class="nav-separator d-none d-lg-block">|</li>
-              <li class="nav-item">
                 <a class="nav-link" href="contacto.html">Contacto</a>
               </li>
             </ul>
@@ -61,19 +57,19 @@
         </div>
       </nav>
     
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
           <div class="col-8">
     
-            <h1>Productos disponibles</h1>
-            <div id="product-list"></div>
+            <h1 class ="mb-4">Productos disponibles</h1>
+            <div id="product-list" class="row g-4"></div>
     
           </div>
-          <div class="col-4">
-            <h2>🛒 Carrito</h2>
-            <div id="cart-list"></div>
-            <button onclick="vaciarCarrito()">Vaciar Carrito</button>
-          </div> 
+          <div class="col-4 panel-carrito">
+              <h2>🛒 Carrito</h2>
+              <div id="cart-list"></div>
+              <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+          </div>
         </div>
       </div> 
       <footer class="py-4 text-center">

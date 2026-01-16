@@ -31,7 +31,7 @@ function validarFormularioInicio(){
    
        // Redirigir según el rol
        if (usuarioValido.rol === "admin") {
-         window.location.href = "../../administrador/paginas/home.html";
+         window.location.href = "../administrador/pages/home.html";
    
        } else {
          window.location.href = "../../index.html";
